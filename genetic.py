@@ -61,8 +61,8 @@ def evolve(populacija, target):
 
 
 geneset = " abcdefghijklmnopqrstuvwxyz"
-target = "to be or not to be"
-broj_populacije = 500
+target = "rasa"
+broj_populacije = 50
 mutation_rate = 0.01
 populacija = [kreiraj_populaciju(len(target), geneset) for x in range(broj_populacije)]
 brojac_generacija = 0
